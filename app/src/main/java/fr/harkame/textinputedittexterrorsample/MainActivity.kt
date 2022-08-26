@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             {
                 binding.etPhoneNumber.isEnabled = false
 
-                binding.btDisableEditText.text = "Disable"
+                binding.btDisableEditText.text = "Enable"
                 binding.etPhoneNumber.isFocusableInTouchMode = true
                 binding.etPhoneNumber.error = "etPhoneNumber is now disabled !"
                 binding.etPhoneNumber.requestFocus()
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             {
                 binding.etPhoneNumber.isEnabled = true
 
-                binding.btDisableEditText.text = "Enable"
+                binding.btDisableEditText.text = "Disable"
                 binding.etPhoneNumber.isFocusableInTouchMode = true
                 binding.etPhoneNumber.error = "etPhoneNumber is now enabled !"
                 binding.etPhoneNumber.requestFocus()
